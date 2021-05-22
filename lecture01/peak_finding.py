@@ -9,6 +9,7 @@ Peak Finding (1-D and 2-D)
 def find_1d_peak(arr: List[int]) -> int:
     """
     Complexity: Θ(log(n))
+    -> T(n) = T(n/2) + Θ(1)
     """
     n = len(arr)
     if n == 1:
@@ -25,7 +26,8 @@ def find_1d_peak(arr: List[int]) -> int:
 
 def find_2d_peak(arr: List[List[int]]) -> int:
     """
-    Complexity: T(n, m) = T(n/2, m) + Θ(m) = Θ(m*log(n))
+    Complexity: Θ(m*log(n))
+    -> T(n, m) = T(n/2, m) + Θ(m)
     """
     n = len(arr)
     m = len(arr[0])
