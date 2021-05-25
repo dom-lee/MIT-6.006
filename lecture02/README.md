@@ -1,4 +1,15 @@
-## difference between original(python2) and python3
+# Document Distance
+1. Split each document into words
+2. count word frequencies
+3. compute dot product and normalize
+4. get angle
+    - 0 degree: identical
+    - 90 degree: no common words
+
+<br/>
+<br/>
+
+### difference between original(python2) and python3
 
 ### python2
 ```python
