@@ -1,7 +1,7 @@
 """
 Lecture 3: Insertion Sort & Merge Sort
 
-Merge Sort
+Merge Sort (divide and conquer)
 - Time Complexity: 𝛩(nlogn)
     T(n) = C + 2T(n/2) + C*n
 
