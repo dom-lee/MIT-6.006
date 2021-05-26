@@ -7,8 +7,6 @@
 
 1. Insertion sort
    - 𝛩(n^2) Compares, 𝛩(n^2) Swaps
-     <br/><br/>
-     
 2. Binary Insertion Sort
    - 𝛩(nlogn) Compares, 𝛩(n^2) Swaps
 
