@@ -54,7 +54,7 @@ def binary_search(arr, low, high, key):
 
 def main():
     arr = [1, 5, 2, 6, 3, 7, 4]
-    for _ in range(10):
+    for _ in range(5):
         arr.extend(arr)
 
     print(insertion_sort(arr))
@@ -64,4 +64,4 @@ def main():
 if __name__ == "__main__":
     import profile
 
-    profile.run("main")
+    profile.run("main()")
