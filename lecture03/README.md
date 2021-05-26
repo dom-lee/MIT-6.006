@@ -5,9 +5,9 @@
 - Time Complexity: 𝛩(n^2)
 - Space Complexity: 𝛩(1)
 
-1. Insertion sort
+1. **Insertion sort**
    - 𝛩(n^2) Compares, 𝛩(n^2) Swaps
-2. Binary Insertion Sort
+2. **Binary Insertion Sort**
    - 𝛩(nlogn) Compares, 𝛩(n^2) Swaps
 
 ### Merge Sort (divide & conquer)
