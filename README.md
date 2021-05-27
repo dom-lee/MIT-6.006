@@ -8,3 +8,4 @@
 |2|[Models of computation, Document Distance](./lecture02)|
 |3|[Insertion Sort, Merge Sort](./lecture03)|
 |4|[Heaps, Heap Sort](./lecture04)|
+|5|[Binary Search Tree](./lecture05)|
